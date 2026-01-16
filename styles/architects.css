@@ -28,17 +28,31 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+}
+
 /* header Styles */
 
 /* navbar related styles */
 
 .navbar {
   justify-content: space-between;
+  align-items: center;
 }
 
-.nav-links{
-    /* display: flex; */
+.brand{
+    font-weight: 700;
+    font-size: 2.81rem;
 }
+
+
 
 .nav-item{
     list-style: none;
@@ -54,3 +68,23 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
+/* Banner Styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+
+/* Responsive Media Query */
