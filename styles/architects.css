@@ -88,3 +88,8 @@
 
 
 /* Responsive Media Query */
+@media (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
